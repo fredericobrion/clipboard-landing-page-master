@@ -5,42 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Clipboard landing page</title>
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Clipboard landing page</title>
 </head>
 <body>
 
-  A history of everything you copy
+  <header id="cabecalho">
+    <img id="logo" src="images/logo.svg" alt="Logo da clipboard">    
+    <h1>A history of everything you copy</h1>
 
-  Clipboard allows you to track and organize everything you 
-  copy. Instantly access your clipboard on all your devices.
+    <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
 
-  Download for iOS
-  Download for Mac
+    <div class="button">
+      <button class="button__ios">Download for iOS</button>
+      <button class="button__mac">Download for Mac</button>
+    </div>
+  </header>
 
-  Keep track of your snippets
+  <div id="monitor">
 
-  Clipboard instantly stores any item you copy in the cloud, 
-  meaning you can access your snippets immediately on all your 
-  devices. Our Mac and iOS apps will help you organize everything.
+    <div class="descricao">
+      <h2>Keep track of your snippets</h2>
+      <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+    </div>
 
-  Quick Search
+    <div id="monitor__container">
+      <img src="images/image-computer.png" alt="Imagem do monitor">
 
-  Easily search your snippets by content, category, web address, application, and more.
-
-  iCloud Sync
-
-  Instantly saves and syncs snippets across all your devices.
-
-  Complete History
-
-  Retrieve any snippets from the first moment you started using the app.
+      <div class="monitor__container__list">
+        <h3>Quick Search</h3>
+        <p>Easily search your snippets by content, category, web address, application, and more.</p>
+        <h3>iCloud Sync</h3>
+        <p>Instantly saves and syncs snippets across all your devices.</p>
+        <h3>Complete History</h3>
+        <p>Retrieve any snippets from the first moment you started using the app.</p>
+      </div>
+    </div>
+  </div>
 
   Access Clipboard anywhere
 
@@ -76,7 +78,6 @@
   Privacy Policy
   Press Kit
   Install Guide
-  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
