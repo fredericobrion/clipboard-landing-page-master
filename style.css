@@ -27,6 +27,7 @@ h2 {
 h3 {
     color: var(--dark-grayish-blue);
     font-weight: 600;
+    font-size: 1.2rem;
 }
 
 #cabecalho {
@@ -53,6 +54,7 @@ h3 {
 .button {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 
 .button__ios, .button__mac {
@@ -85,4 +87,112 @@ h3 {
 
 #monitor__container {
     display: flex;
+}
+
+#monitor__container__imagem {
+    float: left;
+    width: 55%;
+    position: relative;
+    height: auto;
+    margin-left: -3%;
+}
+
+.monitor__container__list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 30%;
+}
+
+.monitor__container__list h3 {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.monitor__container__list p {
+    text-align: left;
+    margin: 15px 0 25px 0;
+}
+
+#devices {
+    margin: 130px 0 100px 0;
+}
+
+#devices p {
+    margin: 40px 0 100px 0;
+}
+
+#supercharge__p {
+    margin: 40px 0 100px 0;
+}
+
+#supercharge__list {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    gap: 18px;
+}
+
+.supercharge__list__child {
+    width: 28%;
+}
+
+.supercharge__list__child img{
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.supercharge__list__child h3 {
+    margin-bottom: 40px;
+}
+
+#companies img {
+    margin: 0 45px 150px 45px;
+}
+
+#download p{
+    margin: 40px 0 50px 0;
+}
+
+#closing {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-color: lightgray;
+    height: 140px;
+}
+
+#closing img {
+    height: 60px;
+    margin-right: 80px;
+}
+
+#closing__links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90px;
+    width: 400px;
+    gap: 40px;
+    margin-left: 50px;
+}
+
+#closing__links a {
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+    text-align: left;
+
+}
+
+#closing__social {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 250px;
+    gap: 0px;
+}
+
+#closing__social img{
+    height: 25px;
 }
